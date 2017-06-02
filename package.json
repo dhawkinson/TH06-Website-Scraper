@@ -1,11 +1,14 @@
 {
     "name": "fsjsProject06",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "scripts": {
         "start": "node scraper.js"
     },
     "dependencies": {
-        "osmosis" : "1.1.2",
-        "json2csv": "3.7.3"
+        "cheerio": "^1.0.0-rc.1",
+        "crawler": "^1.0.5",
+        "json2csv": "^3.7.3",
+        "local-date": "^2.0.1",
+        "osmosis": "^1.1.2"
     }
 }
