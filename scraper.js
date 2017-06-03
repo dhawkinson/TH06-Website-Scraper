@@ -56,6 +56,7 @@ const shirts    = [];                                               //  initiali
 let today       = '', now = '';                                     //  initialize
 let errMsg      = '';
 
+
 //================================
 // check if a directory exists else create it - Req 2
 //================================
@@ -84,7 +85,7 @@ function dateConvert() {
     let mn = d.getMinutes();
     if ( mn < 10 ) { mn = '0'+ mn}
     let ss = d.getSeconds();
-    if ( ss < 10 ) { ss = '0' + ss};
+    if ( ss < 10 ) { ss = '0' + ss}
     let ms = d.getMilliseconds();
     now = d.getFullYear()+'-'+ mm +'-'+ dd + ' ' + hh + ':' + mn + ':' + ss + '.' + ms;
     return now;
