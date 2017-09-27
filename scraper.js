@@ -31,7 +31,7 @@
 //  Extra Credit
 //================================
 //
-//  ( )  a. Edit your package.json file so that your program runs when the npm start command is run
+//  (X)  a. Edit your package.json file so that your program runs when the npm start command is run
 
 //  (X)  b. append to the bottom of the  scraper-error.log file with a time stamp and error
 //            e.g. [Tue Feb 16 2016 10:02:12 GMT-0800 (PST)]
